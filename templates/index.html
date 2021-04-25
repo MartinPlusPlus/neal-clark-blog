@@ -2,12 +2,14 @@
 <html>
 
 <head>
-	<title>Neil Clark Blog | Home</title>
-
+	<title>Neal Clark Blog | Home</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/bootstrap.min.css') }}" />
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}" />
 </head>
-<body>
-	<h1>Neil Clark Blog</h1>
+<body class="container-fluid">
+	<h1 class="header">Neal Clark Blog</h1>
+
+	<script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
 </body>
 
 </html>
