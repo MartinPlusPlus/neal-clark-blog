@@ -1,14 +1,10 @@
 from flask import Flask, render_template
-app = Flask(__name__)
+app = Flask(__name__, static_folder='./build', static_url_path='/')
 
 @app.route('/')
-def home():
-	return render_template("index.html")
+def index():
+	return app.send_static_file('index.html')
 
-@app.route('/docs')
-def docs():
-	return render_template("docs.html")
-
-@app.route('/mail')
-def mail():
-	return render_template("mail.html")
+@app.errorhandler(404)
+def not_found(e):
+    return app.send_static_file('index.html')
