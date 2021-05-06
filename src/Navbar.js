@@ -13,7 +13,7 @@ function Navbar() {
     return (
         <Router>
             <div>
-                <nav className="navbar-nav d-flex flex-row justify-content-center">
+                <nav className="bg-light navbar-nav d-flex flex-row justify-content-center">
                     <NavItem location="/" name="Home"/>
                     <NavItem location="/docs" name="Documents"/>
                     <NavItem location="/mail" name="E-Mail"/>
