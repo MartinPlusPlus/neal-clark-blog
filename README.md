@@ -1,5 +1,5 @@
-# neil-clark-blog
-A blog website for Neil Clark
+# neal-clark-blog
+A blog website for Neal Clark
 
 ## Setup
 Create virtual environment
