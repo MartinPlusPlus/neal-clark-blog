@@ -20,3 +20,7 @@ p {
     font-size: 6rem;
     font-weight: 9]500;
 }
+
+.bg-light {
+    background-color: #f5f5ff !important;
+}
