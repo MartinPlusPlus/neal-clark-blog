@@ -1,7 +1,10 @@
 __pycache__
 venv
 
+.vscode
+
 node_modules
 *.log
 
 KEYS
+
